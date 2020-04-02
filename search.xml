@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>电工实习的~作业</title>
+    <url>/2020/03/31/%E7%94%B5%E5%B7%A5%E5%AE%9E%E4%B9%A0%E4%BD%9C%E4%B8%9A/</url>
+    <content><![CDATA[<hr>
+<h1 id="protel的安装"><a href="#protel的安装" class="headerlink" title="protel的安装"></a>protel的安装</h1><ol>
+<li>下载压缩文件”proteldxp.rar”<br><img src="/images/pasted-1.png" alt="upload successful"></li>
+<li>解压后有a和b两个文件夹<br><img src="/images/pasted-2.png" alt="upload successful">  </li>
+</ol>
+<p>&emsp;&emsp;2.1 <font face="黑体" color="red">a文件夹</font>，<font color="gray">安装DXP 2004</font> </p>
+<p>&emsp;&emsp;a文件夹 -&gt; Setup文件夹 -&gt; Setup.exe(管理员身份运行！)，一路默认安装过去（可以更改安装路径） </p>
+<p>&emsp;&emsp;2.2 <font face="黑体" color="red">b文件夹</font>，<font color="gray">补丁，元件库 与 DXP破解</font>  </p>
+<p>&emsp;&emsp;&emsp;2.2.1  <font color="black"> 补丁，元件库</font><br>&emsp;&emsp;&emsp;分别运行b文件中的 DXP2004SP2.exe (补丁)和 DXP2004SP2_IntegratedLibraries.exe (元件库)文件<br>&emsp;&emsp;&emsp;(不用管parallel port的错误）<br><img src="/images/pasted-4.png" alt="upload successful"></p>
+<p>&emsp;&emsp;&emsp;2.2.2  <font color="black"> 破解 </font><br>&emsp;&emsp;&emsp;b文件夹-&gt; DXP2004crack -&gt;Protel2004破解 -&gt;Protel 2004 SP2 keygen 按照AltiumDXP2004SP2KeyGen.exe内部的教程可以进行破解。</p>
+<hr>
+<h1 id="PCB板制作"><a href="#PCB板制作" class="headerlink" title="PCB板制作"></a>PCB板制作</h1><ol>
+<li>设计-&gt;层堆栈管理器-&gt;菜单-&gt;图层堆栈范例-&gt;单层<br>&emsp;&emsp;改完下面层分布栏会变成，Solder Side就是Bottom Side<br><img src="/images/pasted-9.png" alt="upload successful"></li>
+<li>改单位计量，查看-&gt;切换单位</li>
+<li>在Mechanical 1层画51mm×80mm矩形范围。(粉红色的线)</li>
+<li>取消短接，设计-&gt;规则-&gt;Electrical-&gt;Short-Circuit，取消勾选<br><img src="/images/pasted-10.png" alt="upload successful"></li>
+<li>切换到SolderSide层，在右侧元件库按照封装名选择元件，然后添加到工作区。<br><img src="/images/pasted-11.png" alt="upload successful"></li>
+</ol>
+<p><img src="/images/pasted-12.png" alt="upload successful"><br>6. 现在可以开始连线了！<br>&emsp;-旋转元件：长按元件+空格。<br>&emsp;-连线，不能成锐角和直角。<br>&emsp;-二极管，有横线的一端是负极<br>&emsp;-三极管，1端是箭头流出端<br>&emsp;-焊盘形状，方形为正极，圆形为负极<br>&emsp;-走线，不能交叉<br>&emsp;-焊盘，一些接地右键属性，改标识符GND<br>7. <font color="red">连接器</font>我统一放在下面一排（K1，K2，K3，电源V，电动机M<br>8. 连线完，放置-&gt;字符串,把 <font color="red">学号</font> 放在PCB板左下角。</p>
+<hr>
+<h1 id="最后成果图"><a href="#最后成果图" class="headerlink" title="最后成果图"></a>最后成果图</h1><hr>
+<p><img src="/images/pasted-13.png" alt="upload successful"></p>
+]]></content>
+      <categories>
+        <category>大学课程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/03/31/Hello-World/</url>
+    <content><![CDATA[<h2 id="Begin-Hexo-blogging-processing…"><a href="#Begin-Hexo-blogging-processing…" class="headerlink" title="Begin Hexo blogging processing…"></a>Begin Hexo blogging processing…</h2>]]></content>
+  </entry>
+</search>
