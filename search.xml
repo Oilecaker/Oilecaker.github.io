@@ -41,12 +41,12 @@
   <entry>
     <title>地图分析</title>
     <url>/2020/04/06/%E5%9C%B0%E5%9B%BE%E5%88%86%E6%9E%90/</url>
-    <content><![CDATA[<h1 id="地图分析"><a href="#地图分析" class="headerlink" title="地图分析"></a>地图分析</h1><hr>
-<h2 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a><strong>题目描述</strong>：</h2><p>你现在手里有一份大小为 N x N 的「地图」（网格） grid，上面的每个「区域」（单元格）都用 0 和 1 标记好了。其中 0 代表海洋，1 代表陆地，请你找出一个海洋区域，这个海洋区域到离它最近的陆地区域的距离是最大的。</p>
+    <content><![CDATA[<hr>
+<h1 id="题目描述："><a href="#题目描述：" class="headerlink" title="题目描述："></a><strong>题目描述</strong>：</h1><p>你现在手里有一份大小为 N x N 的「地图」（网格） grid，上面的每个「区域」（单元格）都用 0 和 1 标记好了。其中 0 代表海洋，1 代表陆地，请你找出一个海洋区域，这个海洋区域到离它最近的陆地区域的距离是最大的。</p>
 <p>我们这里说的距离是「曼哈顿距离」（ Manhattan Distance）：(x0, y0) 和 (x1, y1) 这两个区域之间的距离是 |x0 - x1| + |y0 - y1| 。</p>
 <p>如果我们的地图上只有陆地或者海洋，请返回 -1。</p>
 <hr>
-<h2 id="问题分析："><a href="#问题分析：" class="headerlink" title="问题分析："></a><strong>问题分析</strong>：</h2><ol>
+<h1 id="问题分析："><a href="#问题分析：" class="headerlink" title="问题分析："></a><strong>问题分析</strong>：</h1><ol>
 <li>创建一个N×N随机二维容器（考虑Vector容器），创建地图。  </li>
 <li>得到地图中所有值为1的索引值xIndex,yIndex。</li>
 <li>changeVector，将值为1的元素，在上下左右进行扩展，如果周围四格中元素值为0，则将其值变为1，得到新地图。</li>
@@ -54,7 +54,7 @@
 <li>counter值即为最大距离maxDistance。 </li>
 </ol>
 <hr>
-<h2 id="C-代码："><a href="#C-代码：" class="headerlink" title="C++代码："></a><strong>C++代码</strong>：</h2><ol>
+<h1 id="C-代码："><a href="#C-代码：" class="headerlink" title="C++代码："></a><strong>C++代码</strong>：</h1><ol>
 <li><p><em>先生成一维随机vector</em></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">void createRamdomVector(vector&lt;int&gt;&amp; obj)&#x2F;&#x2F;产生存储随机0，1的一维随机vector容器</span><br><span class="line">    &#123;</span><br><span class="line">        int size &#x3D; obj.size();&#x2F;&#x2F;得到Vector的大小</span><br><span class="line">        obj.clear();&#x2F;&#x2F;每次清除暂存数据的vector，初始化</span><br><span class="line">        &#x2F;&#x2F;srand((int)(time(NULL)));随机种子生成函数</span><br><span class="line">        for (int i &#x3D; 0; i&lt;size; ++i)&#x2F;&#x2F;插入0，1</span><br><span class="line">        &#123;	</span><br><span class="line">            int randnum &#x3D; rand() % 2;</span><br><span class="line">            obj.push_back(randnum);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
 <p> <strong>出现问题：</strong>随机种子生成函数不能放在循环执行的函数体内<br> <strong>解决方法：</strong>将其移到main()函数中。</p>
@@ -85,7 +85,6 @@
 <li>跳出双重循环</li>
 </ul>
 <hr>
-<p><strong>*&lt;font face=”A “size =12&gt;End…*</strong></p>
 ]]></content>
       <categories>
         <category>LeetCode</category>
