@@ -95,4 +95,45 @@
         <tag>随机数</tag>
       </tags>
   </entry>
+  <entry>
+    <title>LL(1)文法</title>
+    <url>/2020/04/28/Untitled/</url>
+    <content><![CDATA[<h1 id="LL-1-文法"><a href="#LL-1-文法" class="headerlink" title="LL(1)文法"></a>LL(1)文法</h1><p>课程回放“自顶向下文法分析”，时间40:00</p>
+<ul>
+<li>对《编译技术》课程<strong>第四章作业</strong>的解析</li>
+</ul>
+<hr>
+<h2 id="作业实例"><a href="#作业实例" class="headerlink" title="作业实例"></a>作业实例</h2><p>文法：G[S]：S&rarr;SS+|SS*|a</p>
+<h3 id="提取左因子"><a href="#提取左因子" class="headerlink" title="提取左因子:"></a>提取左因子:</h3><p>S&rarr;SA|a<br>A&rarr;S+|S*</p>
+<h3 id="消除左递归"><a href="#消除左递归" class="headerlink" title="消除左递归"></a>消除左递归</h3><p>S&rarr;aB<br>B&rarr;AB|$\varepsilon$<br>A&rarr;SC<br>C&rarr;+|*</p>
+<h3 id="求First集"><a href="#求First集" class="headerlink" title="求First集"></a>求First集</h3><p>First(S)={a}<br>First(A)={a}<br>First(B)={a,$\varepsilon$}<br>First(C)={+,*}</p>
+<h3 id="求Follow集"><a href="#求Follow集" class="headerlink" title="求Follow集"></a>求Follow集</h3><p><strong>Follow集求法的一般规则</strong></p>
+<ol>
+<li>对于S开始符号，Follow(S)={$}</li>
+<li>如果存在一个产生式A&rarr;$\alpha$B$\beta$,则First($\beta$)除去{$\varepsilon$}之外的所有符号都在Follow(B)中。</li>
+<li>如果存在一个产生式A&rarr;$\alpha$B,或者存在产生式A&rarr;$\alpha$B$\beta$，并且First($\beta$)中包含$\varepsilon$，那么Follow(A)的符号都在Follow(B)中。</li>
+</ol>
+<p><strong>问题求解过程</strong></p>
+<ol>
+<li>Follow(S)，根据A&rarr;SC，First(C)填入{a,$}</li>
+<li>Follow(A)，B&rarr;AB,First(B)填入；</li>
+<li>Follow(B),<br>&rArr;B&rarr;AB<br>&rArr;AB&rarr;AAB<br>&rArr;A&rarr;SC，S&rarr;aB代入，AB&rarr;ASCB&rarr;AaBCB<br>所以，Follow(B)=First(C)-{$\varepsilon$}={+,*} $\cup$ {$}</li>
+<li>AB&rarr;ASCB&rarr;AaBCB, Follow(C)=First(B)-{$\varepsilon$}={a}<br>根据<strong>一般规则3.</strong>, First(B)包含$\varepsilon$，所以Follow(B)包含在Follow(C)中</li>
+</ol>
+<p><strong>Follow集</strong><br>Follow(S)={a,$}</p>
+<p>Follow(A)={a,$}</p>
+<p>Follow(B)={+,*,$}</p>
+<p>Follow(C)={a,+,*,$}</p>
+<h3 id="判断是否是LL-1-文法"><a href="#判断是否是LL-1-文法" class="headerlink" title="判断是否是LL(1)文法"></a>判断是否是LL(1)文法</h3><p>根据龙书，一个文法G是LL(1)文法，当且仅当对于G的每个非终结符Α的任何两个不同产生式<br>Α→α,Α→β均满足下面条件(其中α和β不能同时推出ε):<br>1、FIRST(α)∩FIRST(β)=Φ<br>2、假若β=&gt;*ε，那么FIRST(α)∩FOLLOW(A)＝Φ</p>
+<h3 id="构建LL-1-分析表"><a href="#构建LL-1-分析表" class="headerlink" title="构建LL(1)分析表"></a>构建LL(1)分析表</h3><p>对应PPT<br><img src="/images/pasted-15.png" alt="upload successful"><br><img src="/images/pasted-16.png" alt="upload successful"></p>
+<h3 id="LL-1-分析过程模拟"><a href="#LL-1-分析过程模拟" class="headerlink" title="LL(1)分析过程模拟"></a>LL(1)分析过程模拟</h3><p>PPT的例子：<br><img src="/images/pasted-17.png" alt="upload successful"></p>
+]]></content>
+      <categories>
+        <category>编译技术</category>
+      </categories>
+      <tags>
+        <tag>作业</tag>
+        <tag>LL(1)</tag>
+      </tags>
+  </entry>
 </search>
