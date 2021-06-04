@@ -138,23 +138,6 @@
       </tags>
   </entry>
   <entry>
-    <title>非对称加密SM2和ECDSA d9740bddc29b428d9a6e05e269dd1feb</title>
-    <url>/2021/06/04/%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86SM2%E5%92%8CECDSA%20d9740bddc29b428d9a6e05e269dd1feb/</url>
-    <content><![CDATA[<h1 id="非对称加密SM2和ECDSA"><a href="#非对称加密SM2和ECDSA" class="headerlink" title="非对称加密SM2和ECDSA"></a>非对称加密SM2和ECDSA</h1><h2 id="非对称加解密"><a href="#非对称加解密" class="headerlink" title="非对称加解密"></a>非对称加解密</h2><p>如果小明要加密一个文件发送给小红，他应该首先向小红索取她的公钥，然后，他用小红的公钥加密，把加密文件发送给小红，此文件只能由小红的私钥解开，因为小红的私钥在她自己手里，所以，除了小红，没有任何人能解开此文件。</p>
-<h1 id="SM２"><a href="#SM２" class="headerlink" title="SM２"></a>SM２</h1><p>数字签名（又称公钥数字签名）是只有信息的发送者才能产生的别人无法伪造的一段数字串，这段数字串同时也是对信息的发送者发送信息真实性的一个有效证明。它是一种类似写在纸上的普通的物理签名，但是使用了公钥加密领域的技术来实现的，用于鉴别数字信息的方法。一套数字签名通常定义两种互补的运算，一个用于签名，另一个用于验证。数字签名是非对称密钥加密技术与数字摘要技术的应用。</p>
-<p>签名流程</p>
-<p><img src="%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86SM2%E5%92%8CECDSA%20d9740bddc29b428d9a6e05e269dd1feb/Untitled.png" alt="%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86SM2%E5%92%8CECDSA%20d9740bddc29b428d9a6e05e269dd1feb/Untitled.png"></p>
-<p>验收流程</p>
-<p><img src="%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86SM2%E5%92%8CECDSA%20d9740bddc29b428d9a6e05e269dd1feb/Untitled%201.png" alt="%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86SM2%E5%92%8CECDSA%20d9740bddc29b428d9a6e05e269dd1feb/Untitled%201.png"></p>
-<p>加密</p>
-<p><img src="%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86SM2%E5%92%8CECDSA%20d9740bddc29b428d9a6e05e269dd1feb/Untitled%202.png" alt="%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86SM2%E5%92%8CECDSA%20d9740bddc29b428d9a6e05e269dd1feb/Untitled%202.png"></p>
-<p>解密</p>
-<p><img src="%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86SM2%E5%92%8CECDSA%20d9740bddc29b428d9a6e05e269dd1feb/Untitled%203.png" alt="%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86SM2%E5%92%8CECDSA%20d9740bddc29b428d9a6e05e269dd1feb/Untitled%203.png"></p>
-<p><a href="%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86SM2%E5%92%8CECDSA%20d9740bddc29b428d9a6e05e269dd1feb/SM2.pdf">SM2公钥密码加密.pdf</a></p>
-<p><a href="%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86SM2%E5%92%8CECDSA%20d9740bddc29b428d9a6e05e269dd1feb/%5BIDEA%5D%20java%E5%AE%9E%E7%8E%B0SM2%E5%8A%A0%E8%A7%A3%E5%AF%86%202b6a5d9fd60744aca44fd4142a79bc60.md">[IDEA] java实现SM2加解密</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>非对称加密SM2和ECDSA/[IDEA] java实现SM2加解密 </title>
     <url>/2021/06/04/%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86SM2%E5%92%8CECDSA/%5BIDEA%5D%20java%E5%AE%9E%E7%8E%B0SM2%E5%8A%A0%E8%A7%A3%E5%AF%86%20/</url>
     <content><![CDATA[<h1 id="IDEA-java实现SM2加解密"><a href="#IDEA-java实现SM2加解密" class="headerlink" title="[IDEA] java实现SM2加解密"></a>[IDEA] java实现SM2加解密</h1><h2 id="1-密码库bouncycastle配置"><a href="#1-密码库bouncycastle配置" class="headerlink" title="1. 密码库bouncycastle配置"></a>1. 密码库bouncycastle配置</h2><p><a href="%5BIDEA%5D%20java%E5%AE%9E%E7%8E%B0SM2%E5%8A%A0%E8%A7%A3%E5%AF%86%202b6a5d9fd60744aca44fd4142a79bc60/windows%E7%B3%BB%E7%BB%9F%E6%B7%BB%E5%8A%A0bc%E5%88%B0IDEA%2024971ff07e164d3499d84760186fda30.md">windows系统添加bc到IDEA</a></p>
