@@ -1,1 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2022-09-26T14:40:57.951Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.3.6" etag="QEHomAoLUdT6idkj-df5" type="github"><diagram id="0i-PwU-Yf9LhxJ3Zkrjr">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-26T14:49:03.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="BedXuYfgSBVgTu5hnuGu" version="20.3.6" type="github">
+  <diagram id="0i-PwU-Yf9LhxJ3Zkrjr" name="Page-1">
+    <mxGraphModel dx="1209" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.007;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;endArrow=open;endFill=0;" edge="1" parent="1" source="KAPe6m1AgvlkY1C9G08c-1" target="KAPe6m1AgvlkY1C9G08c-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;endArrow=open;endFill=0;" edge="1" parent="1" target="KAPe6m1AgvlkY1C9G08c-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-2" value="确定路径点" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-3" value="确定规划路线" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;endArrow=open;endFill=0;" edge="1" parent="1" target="KAPe6m1AgvlkY1C9G08c-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="570" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;endArrow=open;endFill=0;" edge="1" parent="1" source="KAPe6m1AgvlkY1C9G08c-7" target="KAPe6m1AgvlkY1C9G08c-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-7" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="550" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-8" value="语音提示" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF0000;endArrow=open;endFill=0;" edge="1" parent="1" source="KAPe6m1AgvlkY1C9G08c-9" target="KAPe6m1AgvlkY1C9G08c-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.021;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#FF0000;endArrow=open;endFill=0;" edge="1" parent="1" source="KAPe6m1AgvlkY1C9G08c-9" target="KAPe6m1AgvlkY1C9G08c-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-9" value="路径规划" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="620" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF0000;endArrow=open;endFill=0;" edge="1" parent="1" source="KAPe6m1AgvlkY1C9G08c-10" target="KAPe6m1AgvlkY1C9G08c-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-10" value="路径引导" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="490" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF0000;endArrow=open;endFill=0;" edge="1" parent="1" source="KAPe6m1AgvlkY1C9G08c-11" target="KAPe6m1AgvlkY1C9G08c-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-11" value="重新规划路线" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="510" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-12" value="路况提醒" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="320" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-13" value="违章提醒" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="440" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-16" value="绘制规划路线" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="740" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-17" value="计算规划路线" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="630" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-27" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;strokeColor=#FF0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KAPe6m1AgvlkY1C9G08c-8" target="KAPe6m1AgvlkY1C9G08c-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="570" y="350" as="sourcePoint" />
+            <mxPoint x="730" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-28" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;strokeColor=#FF0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KAPe6m1AgvlkY1C9G08c-8" target="KAPe6m1AgvlkY1C9G08c-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="590" y="450" as="sourcePoint" />
+            <mxPoint x="750" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-29" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="535" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-30" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="440" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-31" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="630" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-32" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="710" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAPe6m1AgvlkY1C9G08c-33" value="如果驾驶员没按照&lt;br&gt;引导进行驾驶" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;" vertex="1" parent="1">
+          <mxGeometry x="680" y="535" width="140" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
